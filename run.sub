@@ -3,11 +3,11 @@
 
 universe                = docker
 docker_image            = docker.lsv.uni-saarland.de/htcondor-test:22.02-py3
-initialdir              = /nethome/mmosbach/projects/htcondor-test
-executable              = /nethome/mmosbach/projects/htcondor-test/scripts/run.sh
-output                  = /data/users/mmosbach/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).out
-error                   = /data/users/mmosbach/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).err
-log                     = /data/users/mmosbach/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).log
+initialdir              = /nethome/rkchikkala/projects/htcondor-test
+executable              = /nethome/rkchikkala/projects/htcondor-test/scripts/run.sh
+output                  = /data/users/rkchikkala/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).out
+error                   = /data/users/rkchikkala/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).err
+log                     = /data/users/rkchikkala/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).log
 request_CPUs            = 1
 request_memory          = 10G
 request_GPUs            = 1
