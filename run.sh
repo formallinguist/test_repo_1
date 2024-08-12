@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # run setup
-source /path/to/test_repo/scripts/setup.sh
-
+source /nethome/rkchikkala/projects/htcondor-test/scripts/setup.sh
 
 # run misc. stuff
 nvidia-smi
@@ -12,4 +11,4 @@ which python
 python -m pip list
 
 # run code
-python /path/to/test_repo/src/htcondor_test/main.py
+python $PROJECT_DIR/src/htcondor_test/main.py
