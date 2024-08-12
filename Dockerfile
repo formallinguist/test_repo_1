@@ -33,14 +33,6 @@ ENV LANG C.UTF-8
 RUN python3 -m pip install numpy
 RUN python3 -m pip install autopep8
 
-# Install additional libraries for your code
-RUN python3 -m pip install pandas
-RUN python3 -m pip install scikit-learn
-RUN python3 -m pip install sentencepiece
-RUN python3 -m pip install transformers
-RUN python3 -m pip install accelerate
-RUN python3 -m pip install torch==1.11.0
-
 # Specify a new user (USER_NAME and USER_UID are specified via --build-arg)
 ARG USER_UID
 ARG USER_NAME
